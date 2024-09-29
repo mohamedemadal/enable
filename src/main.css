@@ -68,7 +68,8 @@ td{
   border-radius: 0px !important;
 }
 .v-list-item--density-compact.v-list-item--one-line{
-  background-color: white  !important ;
+  background-color: white !important;
+  
   color: black !important;
   border-radius: 5px !important;
 }
@@ -81,6 +82,12 @@ canvas {
   
   height: 50px!important;
 }
+.p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button{
+  background-color: #fcaf17 !important;
+}
+/* .v-toolbar__content{
+  background-color:#007ebd  !important ;
+} */
 /* .fc-daygrid-block-event .fc-event-time, .fc-daygrid-block-event .fc-event-title{
   background-color: #135C65!important;
   color: white !important;

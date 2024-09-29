@@ -1,7 +1,7 @@
 <script setup>
 // imports
 import { ref } from "vue";
-import sawaLogo from "../assets/img/sawa_logo.svg";
+import sawaLogo from "../assets/logo1.png";
 import { useAuthStore } from "../stores/Auth";
 
 // variables

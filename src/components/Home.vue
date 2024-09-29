@@ -6,7 +6,7 @@ import { useAuthStore } from "../stores/Auth";
 import UserProfileMenu from "./UserProfileMenu.vue";
 import { useTheme } from "vuetify";
 const router = useRouter()
-import sawaLogo from "../assets/img/sawa_logo.svg";
+import sawaLogo from "../assets/logo1.png";
 import {useRouter} from "vue-router";
 const theme = useTheme();
 const drawer = ref(true);
@@ -64,7 +64,7 @@ onMounted(async () => {
   width: 50px;
   height: 61px;
   border-radius: 50%;
-  background-color: #135c65;
+  background-color: #08233d;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -78,7 +78,7 @@ onMounted(async () => {
   width: 50px;
   height: 61px;
   border-radius: 50%;
-  background-color: #135c65;
+  background-color: #08233d;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@ onMounted(async () => {
 
 #navbar {
   padding-top: 46px;
-  background-color: #135c65 !important;
+  background-color: #08233d !important;
   color: #ffffff !important;
   height: calc(100% - 119.81px) !important;
   //width: 19% !important;
@@ -129,7 +129,7 @@ onMounted(async () => {
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
         <v-toolbar-title class="">
-          <v-img class="" max-width="100" :src="sawaLogo"></v-img>
+          <v-img class="h-14"  max-width="100" :src="sawaLogo"></v-img>
         </v-toolbar-title>
 
         <v-spacer></v-spacer>

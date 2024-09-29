@@ -5,7 +5,7 @@ import { ref, watch, computed, onMounted } from "vue";
 import { useAuthStore } from "../stores/Auth";
 import UserProfileMenu from "./UserProfileMenu.vue";
 import { useTheme } from "vuetify";
-import sawaLogo from "../assets/img/sawa_logo.svg";
+import sawaLogo from "../assets/";
 
 const theme = useTheme();
 const drawer = ref(true);

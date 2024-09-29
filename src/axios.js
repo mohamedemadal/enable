@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "https://sys.sawa.sawa.academy/";
+axios.defaults.baseURL = "https://api.360enable.com/";
 
 axios.defaults.headers.common['Access-Control-Allowffff-Origin'] = '*'
 

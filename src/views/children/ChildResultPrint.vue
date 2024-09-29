@@ -134,7 +134,7 @@ export default {
   </v-alert>
   <div class="back-back">
     <div class="back">
-      <div class="text-center"><img src="../../assets/img/sawa_logo.svg" style="width:130px; "></div>
+      <div class="text-center"><img src="../../assets/logo1.png" style="width:130px; "></div>
       <div><p class="w-[100%] text-h4 text-center ma-4">{{ print_results[0]?.evaluation_title }}</p></div>
       <div>
         <p class="w-[100%] text-right ma-4">{{ print_results[0]?.child_name }}</p>
