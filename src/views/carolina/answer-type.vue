@@ -19,7 +19,7 @@
                </div>
                <div class="flex">
                 <Button  icon="pi pi-pencil" class="p-button-rounded p-button-success m-auto" @click="edit(data.id)"/>
-                <Button   icon="pi pi-trash" class="p-button-rounded delete p-button-success m-auto" @click="confirmDelete(data.id)"/>
+                <Button    icon="pi pi-trash" class="delete m-auto" @click="confirmDelete(data.id)"/>
                </div>
              </div>
 

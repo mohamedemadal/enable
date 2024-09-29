@@ -1,7 +1,7 @@
 
 <template>
   
-    <div class="grid">
+  <div class="grid" style="overflow-x: scroll;">
       <div class="col-12">
         <div class="card">
           <Toast/>

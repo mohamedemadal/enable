@@ -44,16 +44,18 @@ td{
 }
 .delete{
   background-color: rgb(255, 77, 77) !important;
+  border-radius:  50% !important;
+  height: 49px !important;
 }
 .export{
-  background-color: rgb(106, 106, 231) !important;
+  background-color: #207FB5 !important;
 }
 
 .details{
-  background-color: #135C65 !important;
+  background-color: #08233E !important;
 }
 .show{
-  background-color: #6A6AE7 !important;
+  background-color: #207FB5 !important;
 }
 .p-inputtext:enabled{
   background-color: #f7f5f5 !important;
@@ -85,6 +87,9 @@ canvas {
 .p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button{
   background-color: #fcaf17 !important;
 }
+/* .py-2 {
+  background-color: #08233E !important;
+} */
 /* .v-toolbar__content{
   background-color:#007ebd  !important ;
 } */

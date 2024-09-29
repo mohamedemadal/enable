@@ -203,12 +203,7 @@ const initFilters = () => {
                 class="details mt-2"
                 @click="showItem(slotProps.data.id)"
               />
-                <Button
-               
-                icon="pi pi-trash"
-                class="delete mt-2"
-                @click="confirmDelete(slotProps.data.id)"
-              />
+              
               <Button
               
                 icon="pi pi-user"
@@ -216,6 +211,12 @@ const initFilters = () => {
                 @click="detail(slotProps.data.id)"
              
               />
+              <Button
+               
+               icon="pi pi-trash"
+               class="delete mt-2"
+               @click="confirmDelete(slotProps.data.id)"
+             />
               </div>
             </template>
           </Column>

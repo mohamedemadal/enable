@@ -132,7 +132,7 @@ const initFilters = () => {
 </script>
 
 <template>
-  <div class="grid">
+  <div class="grid" style="overflow-x: scroll;">
     <div class="col-12">
       <va-card class="card">
         <Toolbar class="mb-4 shadow-md">
