@@ -19,7 +19,7 @@
                 </div>
         </div>
         <div class="px-3 ">
-                <div class="element w-full shadow-md bg-[#C8CAAE] border text-white rounded-lg flex items-center p-6 mb-6 xl:mb-0"> 
+                <div class="element w-full shadow-md bg-[#08233E] border text-white rounded-lg flex items-center p-6 mb-6 xl:mb-0"> 
                   <i class="pi pi-bell w-16 h-10 fill-current mr-4 " style="font-size: 2.5rem"></i>
                   <div class="text-white">
                     <p class="font-semibold text-3xl">{{ totla.TotalChild }}</p>
