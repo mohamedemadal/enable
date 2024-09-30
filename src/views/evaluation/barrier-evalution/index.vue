@@ -157,7 +157,7 @@ export default {
             child_id:this.answer.child_id,
             specialist_id:localStorage.getItem("user_id"),
             date:this.answer.date,
-            stimulus_test_id:parseInt(this.$route.params.id) 
+             
           
           })
           .then((response) => {
