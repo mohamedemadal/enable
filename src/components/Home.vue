@@ -182,7 +182,7 @@ onMounted(async () => {
 
           <v-list-group prepend-icon="mdi-human-male-boy" value="Children">
             <template #activator="{ props }">
-              <v-list-item v-bind="props" :title="$t('parents')"></v-list-item>
+              <v-list-item  v-can="'parent show'" v-bind="props" :title="$t('parents')"></v-list-item>
             </template>
 
             <v-list-item v-can="'roles show'"  :title="$t('parents')" value="parents"
