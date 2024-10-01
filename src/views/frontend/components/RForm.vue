@@ -5,7 +5,7 @@
         <img class="h-56 m-auto" src="../image/header/registernobg-01.png" />
       </div>
       <div class="m-auto text-center w-[50%] space-y-2">
-        <h1 class="text-3xl font-bold text-[#FF2A5B]">
+        <h1 class="text-3xl font-bold sec2">
           {{ $t("Register_your_child") }}
         </h1>
         <h2 class="text-[#6D9AA0] text-lg">
@@ -24,7 +24,7 @@
         <v-icon
           @click="goback"
           style="right: 50%"
-          class="bg-[#135C65] text-white p-6 absolute rounded-full"
+          class="show text-white p-6 absolute rounded-full"
           start
           icon="mdi-arrow-left"
         ></v-icon>
@@ -93,7 +93,7 @@
       
             <div class="flex flex-column gap-2 w-full ">
                   <label style="visibility: hidden;" for="username">{{ $t('gruop_sessaion') }}</label>
-                  <Button @click="addChild" class="create m-auto w-full " :label='$t("Register_now")'></Button>
+                  <Button @click="addChild" class="create m-auto w-full details " :label='$t("Register_now")'></Button>
                   <small id="username-help"></small>
               </div>
         </div>

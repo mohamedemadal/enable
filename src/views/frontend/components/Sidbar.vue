@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#135C65] z-10 text-cyan-100 md:w-80 w-72 max-h-full py-[2%] px-2 absolute inset-y-0 left-0 md:relative md:-translate-x-0 transform -translate-x-full transition duration-200 ease-in-out"
+    class="details z-10 text-cyan-100 md:w-80 w-72 max-h-full py-[2%] px-2 absolute inset-y-0 left-0 md:relative md:-translate-x-0 transform -translate-x-full transition duration-200 ease-in-out"
     :class="{ 'fixed translate-x-0 ': sole }"
   >
     <div
@@ -204,7 +204,7 @@
       <div class="bottom-0">
         <button
           @click="parentStore.logout"
-          class="w-full py-2 flex items-center justify-between px-8 my-2 text-xl rounded-2xl bg-[#EB486D] hover:bg-[#E4234F]"
+          class="w-full py-2 flex items-center justify-between px-8 my-2 text-xl rounded-2xl bg-[#fcaf17] hover:bg-[#c59b49]"
         >
           <p class="block">{{ $t("sign_out") }}</p>
           <svg
@@ -218,7 +218,7 @@
               data-name="Path 222"
               d="M11.25,18a1.125,1.125,0,0,1,1.125-1.125H22.5V9.563c0-2.25-2.376-3.938-4.5-3.938H7.313A3.942,3.942,0,0,0,3.375,9.563V26.438a3.942,3.942,0,0,0,3.938,3.938h11.25A3.942,3.942,0,0,0,22.5,26.438V19.125H12.375A1.125,1.125,0,0,1,11.25,18Z"
               transform="translate(-3.375 -5.625)"
-              fill="#981231"
+              fill="#ffff"
             />
           </svg>
         </button>
@@ -256,11 +256,11 @@ export default {
   transition: .1s;
 }
 .sid p:hover{
-  color:#EB486D !important
+  color:#fcaf17 !important
 }
 
 .router-link-active p {
-  color:#EB486D  !important;
+  color:#fcaf17  !important;
 }
 
 

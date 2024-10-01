@@ -258,7 +258,7 @@ export default {
               
               <div class="flex flex-column gap-2 w-full ">
                     <label style="visibility: hidden;" for="username">{{ $t('gruop_sessaion') }}</label>
-                    <Button @click="createtreatment" class="create m-auto w-full " :label='$t("create_button")'></Button>
+                    <Button @click="createtreatment" class="create m-auto w-full details" :label='$t("create_button")'></Button>
                     <small id="username-help"></small>
                 </div>
                 <div class="mt-2 flex items-center justify-between">

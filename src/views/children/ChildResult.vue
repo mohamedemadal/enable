@@ -446,7 +446,7 @@ export default {
           ></v-text-field>
         </v-card-title>
   
-        <v-btn style="color: rgb(255, 255, 255);" text="print" color="#ACAE84" height="45" class="mb-5 mt-5" @click="print">
+        <v-btn  text="print"  height="45" class="mb-5 mt-5 show text-white" @click="print">
           {{$t('print')}}
         </v-btn>
        

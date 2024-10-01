@@ -7,13 +7,13 @@
       <div class="backdrop-blur-sm bg-white/30 p-6">
         <div class="mx-auto lg:py-0">
           <div class="mb-4 text-center">
-            <h1 class="text-3xl py-2 font-bold text-[#FF2A5B] pb-3">
+            <h1 class="text-3xl py-2 font-bold sec2 pb-3">
               {{ $t("Book_an_appointment") }}
             </h1>
-            <p class="text-xl text-[#6D9AA0]">
+            <p class="text-xl sec1">
               {{ $t("Consult_doctors_for_your_child_condition") }}
             </p>
-            <p class="text-xl text-[#6D9AA0]">
+            <p class="text-xl sec1">
               {{
                 $t(
                   "And_communicate_correctly_to_give_you_the_appropriate_diagnosis"
@@ -27,7 +27,7 @@
         <p class="pb-4 text-3xl font-bold">
           {{ $t("Book_an_appointment_with_the_specialist") }}
         </p>
-        <p class="text-[#3AD0FF] text-xl">
+        <p class="sec1 text-xl">
           {{ $t("You_can_choose_the_appropriate") }}
         </p>
       </div>

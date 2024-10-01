@@ -46,7 +46,7 @@
 
               <div
                 v-show="show"
-                class="absolute right-0 py-2 mt-2 bg-[#0D4047] rounded-md shadow-xl w-52 z-10 animate__animated animate__backInDown p-2"
+                class="absolute right-0 py-2 mt-2 details rounded-md shadow-xl w-52 z-10 animate__animated animate__backInDown p-2"
               >
                 <router-link
                   :to="{ name: 'Profile' }"
@@ -55,7 +55,7 @@
                   <div class="flex justify-between">
                     <p class="text-lg">{{ $t("Profile_personly") }}</p>
                     <svg
-                      class="w-6 h-6 text-[yellow]"
+                      class="w-6 h-6 sec2"
                       fill="yellow"
                       viewBox="0 0 32 32"
                       version="1.1"
@@ -114,13 +114,13 @@
         <locale-select id="local-switcher"></locale-select>
         <li
           style="font-size: 130%"
-          class="block font-bold mr-6 m-auto cursor-pointer md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+          class="block font-bold mr-6 m-auto cursor-pointer md-:p-0 main hover:border-b-2 border-[#FF5C82]"
         >
           <router-link :to="{ name: 'home' }"> {{ $t("home") }}</router-link>
         </li>
         <li
           style="font-size: 130%"
-          class="block font-bold mr-6 m-auto cursor-pointer md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+          class="block font-bold mr-6 m-auto cursor-pointer md-:p-0 main hover:border-b-2 border-[#FF5C82]"
         >
           <router-link :to="{ name: 'about' }">{{
             $t("about_us")
@@ -128,7 +128,7 @@
         </li>
         <li
           style="font-size: 130%"
-          class="block font-bold mr-6 m-auto cursor-pointer md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+          class="block font-bold mr-6 m-auto cursor-pointer md-:p-0 main hover:border-b-2 border-[#FF5C82]"
         >
           <router-link :to="{ name: 'contactus' }">
             {{ $t("connect_us") }}</router-link
@@ -136,7 +136,7 @@
         </li>
         <li
           style="font-size: 130%"
-          class="block font-bold mr-6 m-auto cursor-pointer md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+          class="block font-bold mr-6 m-auto cursor-pointer md-:p-0 main hover:border-b-2 border-[#FF5C82]"
         >
           <router-link :to="{ name: 'home' }">
             {{ $t("special_education") }}</router-link
@@ -145,7 +145,7 @@
 
         <li
           style="font-size: 130%"
-          class="block font-bold text-2xl mr-6 m-auto cursor-pointer md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+          class="block font-bold text-2xl mr-6 m-auto cursor-pointer md-:p-0 main hover:border-b-2 border-[#FF5C82]"
         ></li>
       </div>
 
@@ -171,7 +171,7 @@
       <div class="flex space-x-4">
         <div>
           <router-link to="/web"
-            ><img class="cursor-pointer" src="../image/header/Group22.png"
+            ><img class="cursor-pointer h-14 px-2"   max-width="200"  src="../../../assets/logo1.png"
           /></router-link>
         </div>
       </div>
@@ -179,22 +179,22 @@
     <!-- Mobile menu -->
     <div v-if="isMobileMenuOpen" class="md:hidden fix bg-[#ffffff] p-4">
       <li
-        class="block text-2xl font-bold text-center cursor-pointer md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+        class="block text-2xl font-bold text-center cursor-pointer md-:p-0 main hover:border-b-2 border-[#FF5C82]"
       >
         <router-link to="/"> الرئيسيه </router-link>
       </li>
       <li
-        class="block text-2xl font-bold cursor-pointer text-center md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+        class="block text-2xl font-bold cursor-pointer text-center md-:p-0 main hover:border-b-2 border-[#FF5C82]"
       >
         <router-link :to="{ name: 'about' }"> ماذا عنا</router-link>
       </li>
       <li
-        class="block text-2xl font-bold cursor-pointer text-center md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+        class="block text-2xl font-bold cursor-pointer text-center md-:p-0 main hover:border-b-2 border-[#FF5C82]"
       >
         <router-link to="/more"> تواصل معنا</router-link>
       </li>
       <li
-        class="block text-2xl font-bold text-center cursor-pointer md-:p-0 text-[#125B64] hover:border-b-2 border-[#FF5C82]"
+        class="block text-2xl font-bold text-center cursor-pointer md-:p-0 main hover:border-b-2 border-[#FF5C82]"
       >
         <router-link to="/ReAction">التربيه الخاصه</router-link>
       </li>

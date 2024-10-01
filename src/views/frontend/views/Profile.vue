@@ -3,7 +3,7 @@
     <Map />
     <div class="w-full border-b-2 border-x-cyan-950 border-solid">
       <div class="m-auto w-full">
-        <p class="text-center p-4 text-2xl text-[#6EB7BF]">
+        <p class="text-center p-4 text-2xl sec1">
           {{ $t("Profile_personly") }}
         </p>
       </div>
@@ -145,7 +145,7 @@
             </div>
             <button
               @click="updateProfile"
-              class="p-4 mt-10 text-center bg-[#148A98] text-white w-full rounded-2xl text-xl"
+              class="p-4 mt-10 text-center details text-white w-full rounded-2xl text-xl"
             >
               حفظ التغيرات
             </button>

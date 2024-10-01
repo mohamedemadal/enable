@@ -28,7 +28,7 @@ export default {
       <v-card class="mx-auto w-full rounded-xl" max-width="75%">
         <div>
           <div class="animte right-0 absolute m-auto h-full w-[50%] bg-white">
-            <div class="inner p-[10%] m-auto h-full w-full text-[#A5E9FF]">
+            <div class="inner p-[10%] m-auto h-full w-full sec1">
               <p class="w-full h-full m-auto text-center">
                 اكاديمه سوا للتربيه
               </p>
@@ -37,10 +37,10 @@ export default {
           <img class="imge" src="../image/sec1/1.png" />
         </div>
 
-        <v-card-actions class="ssc">
+        <v-card-actions class="main">
           <router-link
             :to="{ name: 'Edit' }"
-            class="text-xl lg:text-2xl p-2 text-[#135C65] z-10"
+            class="text-xl lg:text-2xl p-2 mainz-10"
           >
             {{ $t("evaluation_result") }}
           </router-link>
@@ -63,7 +63,7 @@ export default {
       <v-card class="mx-auto rounded-xl" max-width="75%">
         <div class="">
           <div class="animte right-0 absolute m-auto h-full w-[50%] bg-white">
-            <div class="inner p-[10%] m-auto h-full w-full text-[#A5E9FF]">
+            <div class="inner p-[10%] m-auto h-full w-full main">
               <p class="w-full h-[50%] pt-[20%] text-center">
                 اكاديمه سوا للتربيه
               </p>
@@ -75,7 +75,7 @@ export default {
         <v-card-actions>
           <router-link
             :to="{ name: 'BookingTime' }"
-            class="text-xl lg:text-2xl p-2 text-[#135C65] z-10"
+            class="text-xl lg:text-2xl p-2 main z-10"
           >
             {{ $t("Book_an_appointment") }}
           </router-link>
@@ -99,7 +99,7 @@ export default {
       <v-card class="mx-auto rounded-xl" max-width="75%">
         <div class="w-full">
           <div class="animte right-0 absolute m-auto h-full w-[50%] bg-white">
-            <div class="inner p-[10%] m-auto h-full w-full text-[#A5E9FF]">
+            <div class="inner p-[10%] m-auto h-full w-full main">
               <p class="w-full h-full text-center">اكاديمه سوا للتربيه</p>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default {
         <v-card-actions>
           <router-link
             :to="{ name: 'ReAction' }"
-            class="lg:text-2xl text-xl p-2 text-[#135C65] z-10"
+            class="lg:text-2xl text-xl p-2 main z-10"
           >
             {{ $t("Register_your_child") }}
           </router-link>

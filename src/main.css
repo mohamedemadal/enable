@@ -66,7 +66,7 @@ td{
   text-align: center !important;
 }
 .p-calendar-w-btn .p-datepicker-trigger{
-  background-color:#135C65 !important;
+  background-color:#08233E !important;
   border-radius: 0px !important;
 }
 .v-list-item--density-compact.v-list-item--one-line{
@@ -84,6 +84,18 @@ canvas {
   
   height: 50px!important;
 }
+
+.main{
+  color: #08233E !important;
+}
+.sec1{
+  color: #007ebd !important;
+}
+.sec2{
+  color: #fcaf17 !important;
+}
+
+
 .p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button{
   background-color: #fcaf17 !important;
 }

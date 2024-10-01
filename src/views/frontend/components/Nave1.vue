@@ -1,6 +1,6 @@
 
 <template>
-  <nav class="bg-[#135C65] p-4">
+  <nav class="details p-4">
     <div class="container mx-auto flex items-center justify-between">
       <!-- Your logo or brand content goes here -->
       <div class="flex mx-2">
@@ -9,7 +9,7 @@
             <v-icon
               end
               icon="mdi-map-marker"
-              class="text-[#FFCF24] h-full"
+              class="sec1 h-full"
             ></v-icon>
             {{ $t("Amman_Rabieh_Maysaloon_Street") }}
           </p>
@@ -19,7 +19,7 @@
             <v-icon
               end
               icon="mdi-phone"
-              class="text-[#FFCF24] h-full rotate-180"
+              class="sec1 h-full rotate-180"
             ></v-icon>
             {{ $t("contact") }}
           </p>
@@ -34,13 +34,13 @@
           <div>
             <v-btn
               :to="{ name: 'parentLogin' }"
-              class="bg-[#FFCF24] text-white text-base"
+              class="show text-white text-base"
             >
             {{ $t("sign_in") }}
             </v-btn>
           </div>
           <div class="mx-2">
-            <div class="bg-none shadow-0 text-[#FFCF24] text-base">
+            <div class="bg-none shadow-0 text-[#fcaf17] text-base">
               <v-btn :to="{ name: 'SingUp' }" class="text-base">
                 {{ $t("Create_an_account") }}
               </v-btn>
@@ -71,38 +71,38 @@
     </div>
 
     <!-- Mobile menu -->
-    <div v-if="isMobileMenuOpen" class="lg:hidden fix bg-[#135C65] p-4">
+    <div v-if="isMobileMenuOpen" class="lg:hidden fix details p-4">
       <div
         class="flex flex-col w-full lg:flex-row m-auto space-y-4"
         v-if="!parentStore.parentAuth"
       >
         <div
-          class="m-auto bg-[#0D4047] w-full rounded-lg"
+          class="m-auto details w-full rounded-lg"
           style="display: flex; align-items: center"
         >
           <v-icon
             end
             @click="show"
             :icon="show_Password"
-            class="text-2xl text-white w-[20%] bg-[#0D4047] h-full"
+            class="text-2xl text-white w-[20%] details h-full"
           ></v-icon>
           <input
-            class="text-center focus:ring-0 text-white rounded-lg w-full bg-[#0D4047]"
+            class="text-center focus:ring-0 text-white rounded-lg w-full details"
             :type="pass_type"
             placeholder="كلمه المرور"
           />
         </div>
         <div
-          class="m-auto bg-[#0D4047] w-full rounded-lg"
+          class="m-auto details w-full rounded-lg"
           style="display: flex; align-items: center"
         >
           <v-icon
             end
             icon="mdi-account"
-            class="text-2xl text-white px-2 w-[20%] bg-[#0D4047] h-full"
+            class="text-2xl text-white px-2 w-[20%] details h-full"
           ></v-icon>
           <input
-            class="focus:ring-0 text-center text-white rounded-lg w-full bg-[#0D4047]"
+            class="focus:ring-0 text-center text-white rounded-lg w-full details"
             type="text"
             placeholder="اسم المستخدم"
           />
@@ -110,13 +110,13 @@
         <div class="">
           <v-btn
             to="/register"
-            class="bg-[#FFCF24] m-auto w-full text-white text-base"
+            class="show m-auto w-full text-white text-base"
           >
             تسجيل الدخول
           </v-btn>
         </div>
         <div>
-          <v-btn class="bg-none w-full shadow-0 text-[#FFCF24] text-base">
+          <v-btn class="bg-none w-full shadow-0 text-[#fcaf17] text-base">
             انشاء حساب
           </v-btn>
         </div>

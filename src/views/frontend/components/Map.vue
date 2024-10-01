@@ -1,7 +1,7 @@
 <template>
   <div
-      style="background-color: #135c65"
-      class="flex justify-between  text-center"
+      
+      class="flex justify-between  text-center details"
   >
     <div class="flex mx-2 ">
       <div class="m-auto">
@@ -9,7 +9,7 @@
           <v-icon
           end
           icon="mdi-map-marker"
-          class="  text-[#FFCF24]  h-full  "
+          class="  sec1  h-full  "
       ></v-icon>
       {{ $t("Amman_Rabieh_Maysaloon_Street") }}
           
@@ -21,19 +21,19 @@
           <v-icon
           end
           icon="mdi-phone"
-          class="  text-[#FFCF24]   h-full rotate-180 "
+          class="  sec1   h-full rotate-180 "
       ></v-icon>
           التواصل : 0096265522688-00962791017001
          
         </p>
       </div>
-      <div class="h-full pt-3">
-        <LocaleSelect class="" id="local-switcher" />
+      <div class="h-full py-1">
+        <LocaleSelect class="show" id="local-switcher" />
       </div>
     </div>
       <div class="flex">
      
-      <div class="my-auto  "> <router-link to="/web"><img class="h-[80%] cursor-pointer" src="../image/header/Group22.png" /></router-link></div>
+      <div class="my-auto  "> <router-link to="/web"><img class="cursor-pointer h-14 px-2"  src="../../../assets/logo1.png" /></router-link></div>
       </div>
 
   </div>

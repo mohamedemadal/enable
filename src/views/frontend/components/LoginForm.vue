@@ -140,13 +140,13 @@ export default {
             </div>
             <div class="flex flex-column gap-2 w-full ">
                   <label style="visibility: hidden;" for="username">{{ $t('gruop_sessaion') }}</label>
-                  <Button @click="parentStore.login(parent)" class="create m-auto w-full " :label='$t("Register_now")'></Button>
+                  <Button @click="parentStore.login(parent)" class="create m-auto w-full details" :label='$t("Register_now")'></Button>
                   <small id="username-help"></small>
               </div>
             <div class="mt-2 flex items-center justify-between">
                 
                 <p class="text-xl">
-                   <router-link :to="{ name: 'forgetpassword' }" class="text-xl text-[#135C65]  uppercase"> {{ $t("forgetpass") }}</router-link>
+                   <router-link :to="{ name: 'forgetpassword' }" class="text-xl main uppercase"> {{ $t("forgetpass") }}</router-link>
                 </p>
               
                
