@@ -1,8 +1,8 @@
 <template>
-   <div class=" bg-[url('../image/sec1/Group68.png')] bg-cover bg-[#135C65]">
+   <div class=" bg-[url('../image/sec1/Group68.png')] bg-cover bg-[#fcaf17]">
     <div style="padding: 2%;" class="m-auto w-full space-y-4  ">
         <h1 class="m-auto text-center text-4xl text-white">{{$t("important_thing_that_distinguishes_us")}}</h1>
-        <p class="m-auto text-center text-2xl text-[#29CCFF]">{{ $t("make_a_great_effort_to_help_you") }}</p>
+        <p class="m-auto text-center text-2xl main">{{ $t("make_a_great_effort_to_help_you") }}</p>
     </div>
     <div class="grid grid-cols-10 py-[2%] ">
         <div class="m-auto col-span-2">
@@ -16,7 +16,7 @@
              </div>
                 </slide>
                 <template #addons>
-                  <navigation class=" bg-[#FFCF24] rounded-[50%]  text-white " />
+                  <navigation class=" details rounded-[50%]  text-white " />
                 </template>
               </carousel>
         </div>

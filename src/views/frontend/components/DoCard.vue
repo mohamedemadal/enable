@@ -1,7 +1,7 @@
 <template>
   <div
     style="
-      background: linear-gradient(to right, #ff8b6a, #ff566f);
+      background: linear-gradient(to right, #027FB5, #08233E);
       padding-bottom: 2%;
       padding-top: 2%;
     "
@@ -45,7 +45,7 @@
       }"
     >
       <SwiperSlide v-for="doctor in doctors">
-        <div class="text-center bg-teal-100 rounded-3xl m-2">
+        <div class="text-center bg-[#fcaf17] rounded-3xl m-2">
           <!-- Doctor -->
           <div class="bg-white rounded-3xl">
             <img
@@ -55,7 +55,7 @@
             />
           </div>
           <p class="text-center pt-2 opacity-80">{{ doctor.name }}</p>
-          <p class="text-center text-teal-400 pb-4 p-1">
+          <p class="text-center text-white pb-4 p-1">
             {{ doctor.title }}
           </p>
         </div>

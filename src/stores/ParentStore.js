@@ -38,7 +38,7 @@ export const useParentStore = defineStore("parentStore", {
           //   this.router.push({ name: "code" });
           // } else {
           //   console.log(res);
-          if(localStorage.getItem("lastRoute")){
+          if(localStorage.getItem("lastRoute") && localStorage.getItem("lastRoute") != "/web/register-code"){
             this.router.push(localStorage.getItem("lastRoute"));
           }
           else{
