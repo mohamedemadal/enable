@@ -6,7 +6,7 @@
     />
     <div
       style="
-        background: linear-gradient(to right, #74dbc7, #618990);
+        background: linear-gradient(to right, #027FB5, #08233E);
         opacity: 50%;
       "
       class="absolute inset-0 bg-black"
