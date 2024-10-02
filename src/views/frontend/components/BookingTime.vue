@@ -39,7 +39,7 @@
                 class="text-white w-52 text-center"
                 v-for="(event, key) in tableEvent"
               >
-                {{ key }}
+                {{ $t(key) }}
               </th>
             </tr>
           </thead>

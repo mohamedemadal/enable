@@ -20,6 +20,13 @@ export default {
   addRoom:"اضافة قاعة",
   roomnumber:"اسم القاعه",
   RoomAc:"قائمة قاعات العلاج الاكاديمية",
+  Sunday:"الأحد",
+  Monday:"الاتنين",
+  Saturday:"السبت",
+  Tuesday:"الثلاثاء",
+  Wednesday:"الأربعاء",
+  Thursday:"الخميس",
+  Friday:"الجمعة",
 ///////
 Appointment_type:"نوع الموعد",
 AppointmentAc:"قائمه نوع الموعد ",
