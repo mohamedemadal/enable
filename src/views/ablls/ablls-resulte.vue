@@ -64,11 +64,18 @@ export default {
   },
 
   beforeMount() {
-     this.getresulte()
+    setTimeout(() => {
+        this.getresulte()
+}, 2000);
+     
       
     },
     mounted(){
-      this.getresulte()
+
+      setTimeout(() => {
+        this.getresulte()
+}, 2000);
+     
     }
   
 };
