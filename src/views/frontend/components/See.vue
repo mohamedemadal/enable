@@ -56,7 +56,7 @@
         <div
           class="absolute top-[80%] left-[50%] -translate-y-[50%] -translate-x-[50%] p-10"
         >
-          <img src="../image/sec1/Group79.png" />
+          <img class="max-h-36" src="../../../assets/logo1.png" />
         </div>
         <div class="">
           <img
