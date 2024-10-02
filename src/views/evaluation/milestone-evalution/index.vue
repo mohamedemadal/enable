@@ -205,6 +205,14 @@
           })
           .then((response) => {
            this.answer.child_age=response.data
+           axios
+          .get(`api/milestone-answers/question/${response.data}`)
+          .then((response) => {
+            console.log(response.data[0].subtests)
+            this.allquestion = response.data
+           
+           
+          })
            
           })
       },
@@ -277,7 +285,7 @@
     },
     mounted() {
     this.getusers()
-    this.getquation()
+   
      
     },
   };

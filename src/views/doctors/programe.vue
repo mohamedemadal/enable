@@ -160,7 +160,7 @@
 
 
         if(evalu_id == 1){
-          this.$router.push({ name: 'ShowSideProfiles', params:{'id':id}});
+          this.$router.push({ name: 'SideProfiles'});
         }
         if(evalu_id == 2){
           this.$router.push({ name: 'milestone-evaluation',  params:{'id':id}});
