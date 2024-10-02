@@ -211,7 +211,7 @@
 
       collectanswer(e,id){
         
-        this.answers.answers[id]=({question_id:id,score:e.target.value,color:this.answer.color,child_id:this.answer.child_id,date:this.answer.date,child_age:this.answer.child_age,evaluation_id:this.answer.evaluation_id})
+        this.answers.answers[id]=({question_id:id,score:e.target.value,color:this.answer.color,child_id:this.answer.child_id,date:this.answer.date,child_age:this.answer.child_age*12,evaluation_id:this.answer.evaluation_id})
         console.log(this.answers.answers)
       },
 

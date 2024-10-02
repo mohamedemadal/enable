@@ -27,6 +27,7 @@ export default {
   Wednesday:"الأربعاء",
   Thursday:"الخميس",
   Friday:"الجمعة",
+  book_now:"احجز الان",
 ///////
 Appointment_type:"نوع الموعد",
 AppointmentAc:"قائمه نوع الموعد ",

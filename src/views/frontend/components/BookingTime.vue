@@ -68,7 +68,7 @@
                     @click="submit(Object.values(tableEvent)[j - 1][i - 1]?.id)"
                     class="top-[30%] left-0 text-sm trans pr-2  font-medium rounded-full px-2"
                   >
-                    احجز الان
+                     {{ $t("book_now") }}
                   </button>
                 </diV>
                 <div v-else class="rounded-full w-full">

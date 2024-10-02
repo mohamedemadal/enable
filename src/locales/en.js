@@ -70,6 +70,7 @@ export default {
   selectgender: "select a gender",
   sign_out: "sign out",
   Save_changes: "Save changes",
+  book_now:"Book Now",
 ///////////////
 Appointment_type:"Appointment type",
 AppointmentAc:"Appointment type list",
