@@ -105,7 +105,7 @@
           </div>
           <div class="flex py-2 ">
             <h3 class="my-auto font-bold">{{ $t("اسم المقييم") }} :</h3>
-            <p class="text-xl  px-1 my-auto">{{ evalu.specialist?.name }}</p>
+            <p class="text-xl  px-1 my-auto">{{ user.name}}</p>
           </div>
           <div class="flex py-2 ">
             <h3 class="my-auto font-bold">{{ $t("child_name") }} :</h3>
@@ -227,10 +227,10 @@ get_request(e){
     deleteevalution(id){
       this.delete_id=id
       this.deleteDialog=!(this.deleteDialog)
-    
+  
     },
     go_evaluate(id,evalu_id){
-      console.log(id,evalu_id)
+      localStorage.setItem("child_id",id)
       if(evalu_id == 1){
         this.$router.push({ name: 'ShowSideProfiles', params:{'id':id}});
       }
