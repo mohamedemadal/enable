@@ -153,7 +153,7 @@ price:"السعر",
     "تنبيه هام : لايمكن لطفلك الاختبار مره اخر الا بعر مرور 6 اشهر علي اخر اختبار",
   Date_report: "تقرير بتاريخ",
   Follow_details: "متابعه التفاصيل",
-  age: "عمر الطفل الان",
+  age: "    عمر الطفل الان (شهر) ",
   Consult_doctors_for_your_child_condition: "استشارة الاطباء لحاله طفلك ",
   And_communicate_correctly_to_give_you_the_appropriate_diagnosis:
     "والتواصل بشكل صحصيح لاعطائك التشخيص المناسب  ",

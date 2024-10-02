@@ -9,7 +9,7 @@
         <v-alert title="Alert title" :text="alert_text" v-if="alert_text" closable type="error" class="absolute w-full"></v-alert>
         
       
-        <v-form style="max-height: 80vh; overflow-y: scroll;" fast-fail ref="form" @submit.prevent="validation" class="p-[2%]  bg-[#FDFDFD] shadow-xl grid grid-cols-1 lg:grid-cols-2 gap-4" >
+        <form style="max-height: 80vh; overflow-y: scroll;" fast-fail ref="form" @submit.prevent="getanswer" class="p-[2%]  bg-[#FDFDFD] shadow-xl grid grid-cols-1 lg:grid-cols-2 gap-4" >
           <!-- ... existing code ... -->
             
               
@@ -62,7 +62,7 @@
                   
                     
                     <div class="py-2 px-4" >
-                        <Rating @change="getanswerscore($event,q.id,ind)" v-model="score[q.id]" :cancel="false" :stars="q?.benchmarks?.length">
+                        <Rating required @change="getanswerscore($event,q.id,ind)" v-model="score[q.id]" :cancel="false" :stars="q?.benchmarks?.length">
 
                               <template #onicon>
                                   <img src="../frontend/image/hhh.jfif" height="30" width="30" />
@@ -94,7 +94,7 @@
                 
   
         
-        </v-form>
+        </form>
   <toast></toast>
         <!-- ... existing code ... -->
       </div>
