@@ -29,9 +29,12 @@ export default {
         <div>
           <div class="animte right-0 absolute m-auto h-full w-[50%] bg-white">
             <div class="inner p-[10%] m-auto h-full w-full sec1">
-              <p class="w-full h-full m-auto text-center">
-                اكاديمه سوا للتربيه
-              </p>
+              <div class="flex">
+              
+                <p class="h-full text-center">  ENABLE </p>
+                <p class="px-2 h-full text-center"> 360  </p>
+              </div>
+              
             </div>
           </div>
           <img class="imge" src="../image/sec1/1.png" />
@@ -64,9 +67,11 @@ export default {
         <div class="">
           <div class="animte right-0 absolute m-auto h-full w-[50%] bg-white">
             <div class="inner p-[10%] m-auto h-full w-full main">
-              <p class="w-full h-[50%] pt-[20%] text-center">
-                اكاديمه سوا للتربيه
-              </p>
+              <div class="flex">
+              
+              <p class="h-full text-center">  ENABLE </p>
+              <p class="px-2 h-full text-center"> 360  </p>
+            </div>
             </div>
           </div>
           <img class="imge" src="../image/header/2.png" />
@@ -100,7 +105,11 @@ export default {
         <div class="w-full">
           <div class="animte right-0 absolute m-auto h-full w-[50%] bg-white">
             <div class="inner p-[10%] m-auto h-full w-full main">
-              <p class="w-full h-full text-center">اكاديمه سوا للتربيه</p>
+              <div class="flex">
+              
+              <p class="h-full text-center">  ENABLE </p>
+              <p class="px-2 h-full text-center"> 360  </p>
+            </div>
             </div>
           </div>
           <img class="imge w-full" src="../image/header/3.png" />

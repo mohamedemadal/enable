@@ -11,12 +11,18 @@
       "
       class="absolute inset-0 bg-black"
     ></div>
-    <div class="relative background-color  px-[5%] z-10">
-      <h1 style="font-size: 35px" class="font-bold  pr-6 text-white">
-        {{ $t("Sawa_Academy_for_Special_Education") }}
-      </h1>
+    <div class="relative background-color  px-[5%] z-10 m-auto w-full">
+     <div class="flex m-auto">
+      
+        <h1 style="font-size: 45px" class="font-bold   pr-6 text-white">
+          E N A B L E
+        </h1>
+        <h1 style="font-size: 45px" class="font-bold   pr-6 text-white">
+         360
+        </h1>
+     </div>
       <h2 style="font-size: 30px" class="text-3xl m-10  text-white">
-        {{ $t("Better_self_care_for_your_child_through_us") }}
+        
       </h2>
       <div
         style="color: white"
