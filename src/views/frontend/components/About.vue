@@ -27,12 +27,17 @@
 
       <div class="grid grid-row-5 gap-5 md:gap-0">
         <p class="text-xl sec2 font-bold">{{ $t("connect_us") }}</p>
-        <p class="text-white">
-          0096265522688<i class="fas fa-phone-alt text-white"></i>
-        </p>
-        <p class="text-white">
-          00962791017001<i class="fas fa-phone-alt text-white"></i>
-        </p>
+        <div class="text-white flex">
+          <p class="fas fa-phone-alt text-white px-2"> {{ $t("Jordan") }} :</p>
+          <p class="fas fa-phone-alt text-white"> 00962777717245</p>
+         
+        </div>
+        <div class="text-white flex">
+          <p class="fas fa-phone-alt text-white px-2">{{ $t("Oman") }} :</p>
+          <p class="fas fa-phone-alt text-white"> 0096877479985</p>
+         
+        </div>
+       
         <p class="text-xl sec2 font-bold">{{ $t("address") }}</p>
         <p class="text-white">
           {{ $t("Amman_Rabieh_Maysaloon_Street")
@@ -40,13 +45,10 @@
         </p>
       </div>
       <div class="">
-        <h3 class="p-2 sec2">
-          {{ $t("Sawa_Academy_for_Special_Education") }}
-        </h3>
+       <img src="../image/logo2.svg" alt="">
         <p class="text-white p-1">
           {{ $t("Sawa_Academy_for_Special_Education") }}
-          {{ $t("Sawa_Academy_for_Special_Education") }}
-          {{ $t("Sawa_Academy_for_Special_Education") }}
+        
         </p>
         <ul class="list-none flex flex-row space-x-4 p-2">
           <li>

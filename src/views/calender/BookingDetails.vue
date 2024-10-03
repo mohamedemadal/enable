@@ -503,7 +503,7 @@ export default {
         })
         .then((res) => {
           this.show_modal = true;
-          console.log(res);
+          
         })
         .catch((err) => {
           console.log(err);

@@ -34,7 +34,7 @@
       <div class="p-[5%]">
         <v-table class="border-2 border-[#967a80] " style="overflow: scroll;">
           <thead>
-            <tr class="bg-[#135C65] border-b-2 border-[#474042]">
+            <tr class="details border-b-2 border-[#474042]">
               <th
                 class="text-white w-52 text-center"
                 v-for="(event, key) in tableEvent"
