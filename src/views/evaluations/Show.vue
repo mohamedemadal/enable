@@ -95,9 +95,10 @@ export default {
     },
     getChildren() {
       axios.get("/api/child").then(res => {
-        this.children = res.data.children.forEach((item) => {
-          this.selectBox.push({'title': item.name, 'value': item.id})
-        })
+      
+        this.selectBox=res.data.children
+        this.child_id= parseInt(localStorage.getItem("child_id"))
+        this.getSpecificChildren()
         // console.log(this.selectBox)
 
       })
@@ -195,7 +196,7 @@ export default {
     getSpecificChildren() {
 
 
-      axios.get(`/api/child/${this.child_id}/${this.$route.params.id}`).then(res => {
+      axios.get(`/api/child/${localStorage.getItem("child_id")}/${this.$route.params.id}`).then(res => {
         console.log(res.data.child)
         if (!res.data.child.canDoExam) {
           this.alert_text = "sorry this child has this evaluate lass than 6 months"
@@ -213,6 +214,7 @@ export default {
   }
 
   , mounted() {
+   
     this.getQuestions()
     this.getChildren()
     this.getallskills()
@@ -244,14 +246,12 @@ export default {
   
   
       <v-form fast-fail ref="form" @submit.prevent="submit" class="shadow-lg lg:p-[2%]" >
-        
-        <v-select
-            label="Child"
-            v-model="child_id"
-            @update:modelValue="getSpecificChildren"
-            :items="selectBox"
-            
-        ></v-select>
+        <div class="flex flex-column gap-2">
+                    <label for="username">{{ $t('child_name') }}</label>
+                    <Dropdown  disabled  filter required id="pv_id_1"  style="direction: ltr !important;" v-model="child_id"  option-value="id" :options="selectBox" optionLabel="name" :placeholder='$t("child_name")' class="w-full bg-[#f7f5f5] [&>div>div>span]:bg-black md:w-14rem " />
+                      <div class="mt-1 mb-5 text-red-500" v-if="error?.child_id">{{ error.child_id[0] }}</div>
+          </div>
+      
      
              <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
               
